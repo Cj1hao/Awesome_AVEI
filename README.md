@@ -45,7 +45,7 @@ Empty `arxiv` and `rednote` values in `data/site.json` are hidden automatically.
 
 ## GitHub Pages
 
-After review, commit these files to the `Raiden-cn/Awesome_AVEI` repository and configure GitHub Pages to deploy from the repository root on the default branch. No framework build or deployment action is required.
+The site is published from the `Cj1hao/Awesome_AVEI` repository using GitHub Pages from the repository root on the default branch. No framework build or deployment action is required.
 
 ## Known source gaps
 
