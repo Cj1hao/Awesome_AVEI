@@ -55,7 +55,7 @@ function safeHref(value, allowRelative = false) {
 }
 
 async function fetchJson(path) {
-  const response = await fetch(path);
+  const response = await fetch(path, { cache: "no-store" });
   if (!response.ok) throw new Error(`Could not load ${path} (${response.status})`);
   return response.json();
 }
