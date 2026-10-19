@@ -1,0 +1,66 @@
+{
+  "projectName": "AV-EAI Survey",
+  "eyebrow": "Audio-Visual Embodied Artificial Intelligence",
+  "title": "Seeing, Hearing, and Acting",
+  "subtitle": "A Survey of Audio-Visual Collaboration for Embodied Intelligence",
+  "description": "A capability-oriented survey tracing how audio-visual intelligence evolves from perception to reasoning and closed-loop interaction.",
+  "authors": [
+    {
+      "name": "Zhonghong Ou",
+      "affiliations": [1],
+      "corresponding": true,
+      "url": ""
+    },
+    {
+      "name": "Yifan Zhu",
+      "affiliations": [2],
+      "corresponding": false,
+      "url": ""
+    },
+    {
+      "name": "Pan Hui",
+      "affiliations": [3],
+      "corresponding": false,
+      "url": ""
+    }
+  ],
+  "affiliations": [
+    {
+      "id": 1,
+      "name": "State Key Laboratory of Networking and Switching Technology, Beijing University of Posts and Telecommunications, Beijing, China"
+    },
+    {
+      "id": 2,
+      "name": "School of Computer Science, Beijing University of Posts and Telecommunications, Beijing, China"
+    },
+    {
+      "id": 3,
+      "name": "Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China"
+    }
+  ],
+  "keywords": [
+    "Audio-Visual",
+    "Embodied Intelligence",
+    "Physical AI",
+    "World Model",
+    "Omni-modal"
+  ],
+  "abstract": [
+    "Audio-Visual Embodied Artificial Intelligence (AV-EAI) has emerged as an indispensable frontier driven by the recent convergence of World Models, Physical AI, and omni-modal foundation models, utilizing vision and audio as essential physical perception units to ground intelligent agents in the real world. While previous studies have explored isolated, task-specific audio-visual applications or general multimodal learning, the highly diverse audio-visual literature has not been systematically reviewed in a unified manner, leaving taxonomies and evaluation protocols fragmented.",
+    "This survey establishes a unified taxonomy that characterizes how audio-visual capabilities evolve from sensory alignment and scene perception toward agent-centric reasoning and embodied interaction. We organize the landscape into three progressive capability dimensions—Perception, Reasoning, and Interaction—and consolidate the associated datasets, simulators, evaluation metrics, open challenges, and future directions for Audio-Visual Embodied AI."
+  ],
+  "links": {
+    "github": "https://github.com/Raiden-cn/Awesome_AVEI",
+    "pdf": "assets/paper.pdf",
+    "arxiv": "",
+    "rednote": ""
+  },
+  "contact": {
+    "email": "zhonghong.ou@bupt.edu.cn"
+  },
+  "support": "Supported by the National Key Research and Development Program of China under Grant 2024YFC3308500.",
+  "citation": {
+    "status": "Provisional citation",
+    "bibtex": "@misc{ou2026seeing,\n  title={Seeing, Hearing, and Acting: A Survey of Audio-Visual Collaboration for Embodied Intelligence},\n  author={Ou, Zhonghong and Zhu, Yifan and Hui, Pan},\n  year={2026}\n}"
+  }
+}

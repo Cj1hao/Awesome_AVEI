@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Seeing, Hearing, and Acting — a survey of audio-visual collaboration for embodied intelligence."
+    />
+    <meta name="theme-color" content="#f3f6f7" />
+    <title>Seeing, Hearing, and Acting · AV-EAI Survey</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Manrope:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles-v2.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="nav-shell">
+        <a class="wordmark" href="#overview" aria-label="AV-EAI Survey home">
+          <span class="wordmark-symbol" aria-hidden="true">
+            <i></i><i></i><i></i><i></i><i></i>
+          </span>
+          <span>AV·EAI</span>
+          <small>survey</small>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+          <a href="#abstract">Overview</a>
+          <a href="#taxonomy">Taxonomy</a>
+          <a href="#figures">Figures</a>
+          <a href="#papers">Papers</a>
+          <a href="#benchmarks">Benchmarks</a>
+          <a href="#citation">Citation</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="overview">
+        <div class="hero-stage page-shell">
+          <div class="hero-copy reveal">
+            <p class="eyebrow" id="siteEyebrow">Audio-Visual Embodied Artificial Intelligence</p>
+            <h1>
+              <span class="hero-title-lead" id="siteTitle">Seeing, Hearing, and Acting:</span>
+              <span class="hero-title-continuation" id="siteSubtitle">A Survey of Audio-Visual Collaboration for Embodied Intelligence</span>
+            </h1>
+            <p class="hero-deck" id="siteDescription">
+              A capability-oriented map from multisensory evidence to embodied action.
+            </p>
+            <div class="hero-actions" id="heroActions" aria-label="Project links"></div>
+          </div>
+          <div class="hero-meta reveal">
+            <div class="authors" id="heroAuthors"></div>
+            <div class="affiliations" id="heroAffiliations"></div>
+          </div>
+          <div class="hero-spectrum" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <b>vision</b><i>audio</i><em>action</em>
+          </div>
+        </div>
+      </section>
+
+      <section class="section abstract-section" id="abstract">
+        <div class="page-shell editorial-grid">
+          <header class="section-heading sticky-heading reveal">
+            <p class="eyebrow">Research thesis</p>
+            <h2>Embodied intelligence begins where modalities become evidence.</h2>
+            <div class="keyword-row" id="keywordRow"></div>
+          </header>
+
+          <div class="abstract-copy reveal" id="abstractCopy"></div>
+        </div>
+
+        <figure class="feature-figure page-shell reveal">
+          <button
+            class="image-button"
+            type="button"
+            data-lightbox="assets/figures/teaser.png"
+            data-caption="The Perception–Reasoning–Interaction loop illustrated through an autonomous-driving scenario."
+          >
+            <img
+              src="assets/figures/teaser.png"
+              alt="An autonomous-driving example showing perception, reasoning, and interaction as a closed audio-visual loop"
+            />
+            <span>Expand figure</span>
+          </button>
+          <figcaption>
+            <span>FIGURE 01 · THE CLOSED LOOP</span>
+            <p>
+              Visual and auditory cues become a fused observation; reasoning infers hidden risk; action changes the scene and produces the next observation.
+            </p>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="section taxonomy-section" id="taxonomy">
+        <div class="page-shell">
+          <header class="section-heading taxonomy-heading reveal">
+            <p class="eyebrow">Capability map</p>
+            <h2>A closed loop, not a ladder.</h2>
+            <p>
+              The taxonomy separates principal outputs while preserving the feedback connections between evidence, inference, and action.
+            </p>
+          </header>
+
+          <div class="taxonomy-stage reveal">
+            <div class="taxonomy-tabs" id="taxonomyTabs" role="tablist" aria-label="Taxonomy dimensions"></div>
+            <div class="taxonomy-panel" id="taxonomyPanel"></div>
+            <div class="taxonomy-loop" aria-hidden="true">
+              <span>observations</span><i></i><span>beliefs</span><i></i><span>actions</span><b>↺</b>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section figures-section" id="figures">
+        <div class="page-shell">
+          <header class="section-heading split-heading reveal">
+            <div>
+              <p class="eyebrow">Visual atlas</p>
+              <h2>From representation to action.</h2>
+            </div>
+            <p>
+              The survey connects sensor representations, perceptual operators, and embodied policies instead of treating them as isolated task families.
+            </p>
+          </header>
+
+          <div class="figure-grid">
+            <figure class="figure-card figure-card-wide reveal">
+              <button
+                class="image-button"
+                type="button"
+                data-lightbox="assets/figures/data-representation.png"
+                data-caption="Visual and audio data representations with representative front-end encoders."
+              >
+                <img
+                  src="assets/figures/data-representation.png"
+                  alt="Overview of visual and audio representations and front-end encoder architectures"
+                  loading="lazy"
+                />
+                <span>Inspect architecture</span>
+              </button>
+              <figcaption><span>FIG. 03</span><strong>Data representations & front-end encoders</strong></figcaption>
+            </figure>
+
+            <figure class="figure-card reveal">
+              <button
+                class="image-button"
+                type="button"
+                data-lightbox="assets/figures/perception.png"
+                data-caption="Consistency, grounding, analysis, and scene understanding in audio-visual perception."
+              >
+                <img
+                  src="assets/figures/perception.png"
+                  alt="Four families of audio-visual perception methods"
+                  loading="lazy"
+                />
+                <span>Inspect perception</span>
+              </button>
+              <figcaption><span>FIG. 04</span><strong>Perception overview</strong></figcaption>
+            </figure>
+
+            <figure class="figure-card figure-card-tall reveal">
+              <button
+                class="image-button"
+                type="button"
+                data-lightbox="assets/figures/interaction.png"
+                data-caption="Mobility, manipulation, communication, and generalist audio-visual policies."
+              >
+                <img
+                  src="assets/figures/interaction.png"
+                  alt="Four families of audio-visual embodied interaction"
+                  loading="lazy"
+                />
+                <span>Inspect interaction</span>
+              </button>
+              <figcaption><span>FIG. 05</span><strong>Interaction overview</strong></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section papers-section" id="papers">
+        <div class="page-shell">
+          <header class="section-heading split-heading reveal">
+            <div>
+              <p class="eyebrow">Living literature map</p>
+              <h2>Explore the surveyed work.</h2>
+            </div>
+            <p>
+              Generated from the manuscript and bibliography. A paper may carry several capability tags when it supports more than one part of the loop.
+            </p>
+          </header>
+
+          <div class="literature-console reveal">
+            <div class="console-readout" aria-label="Literature statistics">
+              <div><span>RESOLVED PAPERS</span><strong id="paperCount">—</strong></div>
+              <div><span>YEAR SPAN</span><strong id="paperYearRange">—</strong></div>
+              <div><span>CATEGORY LINKS</span><strong id="categoryLinkCount">—</strong></div>
+              <p id="dataTimestamp">Local manuscript snapshot</p>
+            </div>
+
+            <div class="paper-controls">
+              <label class="search-control">
+                <span>Search the corpus</span>
+                <input id="paperSearch" type="search" placeholder="Title, author, venue, year…" autocomplete="off" />
+                <kbd>/</kbd>
+              </label>
+
+              <div class="control-row">
+                <div class="category-filter" id="categoryFilter" aria-label="Filter papers by category"></div>
+                <label class="sort-control">
+                  <span>Sort</span>
+                  <select id="paperSort">
+                    <option value="year-desc">Newest first</option>
+                    <option value="year-asc">Oldest first</option>
+                    <option value="title-asc">Title A–Z</option>
+                    <option value="citation">Citation order</option>
+                  </select>
+                </label>
+              </div>
+
+              <div class="subcategory-filter" id="subcategoryFilter" hidden></div>
+              <div class="results-summary">
+                <p id="paperResultSummary" aria-live="polite">Loading literature…</p>
+                <button id="clearPaperFilters" type="button">Clear filters</button>
+              </div>
+            </div>
+
+            <div class="paper-table" role="table" aria-label="Surveyed papers">
+              <div class="paper-table-head" role="row">
+                <span role="columnheader">Paper</span>
+                <span role="columnheader">Year / venue</span>
+                <span role="columnheader">Capabilities</span>
+                <span role="columnheader">Source</span>
+              </div>
+              <div id="paperList"></div>
+            </div>
+
+            <div class="load-more-wrap">
+              <button class="button button-secondary" id="loadMorePapers" type="button">Show more papers</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section benchmarks-section" id="benchmarks">
+        <div class="page-shell">
+          <header class="section-heading split-heading reveal">
+            <div>
+              <p class="eyebrow">Evaluation field guide</p>
+              <h2>Benchmarks are capability tests.</h2>
+            </div>
+            <p>
+              Compare what each resource measures—not only its scale. The current field guide follows the representative benchmark table in the manuscript.
+            </p>
+          </header>
+
+          <div class="benchmark-controls reveal">
+            <div id="benchmarkFilter" class="segmented-control" aria-label="Filter benchmarks"></div>
+            <label class="compact-search">
+              <span class="sr-only">Search benchmarks</span>
+              <input id="benchmarkSearch" type="search" placeholder="Search benchmark or task" />
+            </label>
+          </div>
+          <div class="benchmark-grid reveal" id="benchmarkGrid"></div>
+        </div>
+      </section>
+
+      <section class="section directions-section" id="directions">
+        <div class="page-shell">
+          <header class="section-heading reveal">
+            <p class="eyebrow">Open research signals</p>
+            <h2>Six directions for reliable embodied audio-visual intelligence.</h2>
+          </header>
+
+          <ol class="direction-list reveal">
+            <li>
+              <span>01</span>
+              <div><strong>Evidence-grounded decisions</strong><p>Preserve provenance and uncertainty from observation through action.</p></div>
+            </li>
+            <li>
+              <span>02</span>
+              <div><strong>Action-conditioned world models</strong><p>Predict how interventions alter both the world and its multisensory evidence.</p></div>
+            </li>
+            <li>
+              <span>03</span>
+              <div><strong>Streaming fusion and memory</strong><p>Maintain asynchronous audio-visual context under real-time control budgets.</p></div>
+            </li>
+            <li>
+              <span>04</span>
+              <div><strong>Physically consistent sim-to-real</strong><p>Model geometry, materials, reverberation, and device variation together.</p></div>
+            </li>
+            <li>
+              <span>05</span>
+              <div><strong>Generalist AV-language-action policies</strong><p>Use sound as actionable evidence rather than an auxiliary feature.</p></div>
+            </li>
+            <li>
+              <span>06</span>
+              <div><strong>Closed-loop evaluation</strong><p>Connect localization and reasoning gains to action, recovery, and latency.</p></div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section citation-section" id="citation">
+        <div class="page-shell citation-grid">
+          <header class="section-heading reveal">
+            <p class="eyebrow">Reference this survey</p>
+            <h2>Citation</h2>
+            <p id="citationStatus">Provisional citation; update after public release.</p>
+          </header>
+          <div class="citation-card reveal">
+            <pre id="citationText"></pre>
+            <button class="copy-button" id="copyCitation" type="button">Copy BibTeX</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="page-shell footer-grid">
+        <div>
+          <a class="wordmark footer-wordmark" href="#overview">
+            <span class="wordmark-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+            <span>AV·EAI</span>
+          </a>
+          <p>Seeing, Hearing, and Acting.</p>
+        </div>
+        <div>
+          <span class="footer-label">Contact</span>
+          <a id="contactEmail" href="mailto:zhonghong.ou@bupt.edu.cn">zhonghong.ou@bupt.edu.cn</a>
+        </div>
+        <div>
+          <span class="footer-label">Project</span>
+          <a href="https://github.com/Raiden-cn/Awesome_AVEI" target="_blank" rel="noreferrer">GitHub repository ↗</a>
+        </div>
+      </div>
+      <div class="page-shell footer-note">
+        <p id="supportText"></p>
+        <p>© <span id="currentYear"></span> AV-EAI Survey</p>
+      </div>
+    </footer>
+
+    <dialog class="lightbox" id="figureLightbox">
+      <button class="lightbox-close" type="button" aria-label="Close figure">Close ×</button>
+      <div class="lightbox-frame">
+        <img alt="" />
+      </div>
+      <p></p>
+    </dialog>
+
+    <dialog class="paper-dialog" id="paperDialog" aria-labelledby="paperDialogTitle">
+      <button class="paper-dialog-close" type="button" aria-label="Close paper details">Close ×</button>
+      <div class="paper-dialog-meta">
+        <span id="paperDialogOrder"></span>
+        <span id="paperDialogYear"></span>
+      </div>
+      <h2 id="paperDialogTitle"></h2>
+      <p class="paper-dialog-authors" id="paperDialogAuthors"></p>
+      <p class="paper-dialog-venue" id="paperDialogVenue"></p>
+      <div class="paper-dialog-tags" id="paperDialogTags"></div>
+      <div class="paper-dialog-abstract">
+        <span>Abstract</span>
+        <p id="paperDialogAbstract"></p>
+      </div>
+      <div class="paper-dialog-actions" id="paperDialogActions"></div>
+    </dialog>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

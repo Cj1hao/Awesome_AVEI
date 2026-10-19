@@ -1,0 +1,32 @@
+{
+  "bibliographyEntries": 362,
+  "activeCitationKeys": 359,
+  "generatedPapers": 353,
+  "missingCitationKeys": [
+    "ref_transformer1",
+    "ref_transformer2",
+    "ref_diffusion1",
+    "ref_diffusion2",
+    "ref_active1",
+    "ref_physics1"
+  ],
+  "unusedBibliographyKeys": [
+    "omnibind_ICLR2025",
+    "oneavm_ICML2023",
+    "cign_ICCV2023",
+    "crossmae_CVPR2024",
+    "zhou2026cartesian",
+    "li2026causalstep",
+    "puyin2026quantiphy",
+    "zhou2026physinone",
+    "zhou2026paibench"
+  ],
+  "categoryCounts": {
+    "Foundations": 35,
+    "Interaction": 69,
+    "Reasoning": 71,
+    "Perception": 219,
+    "Resources": 22,
+    "Future Directions": 18
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "dimensions": [
+    {
+      "id": "perception",
+      "name": "Perception",
+      "question": "What can I see and hear?",
+      "summary": "Estimate signals, entities, events, and physical scene structure from complementary visual and auditory observations.",
+      "accent": "blue",
+      "groups": [
+        {
+          "name": "Consistency",
+          "items": ["Semantic-level Correspondence", "Temporal-level Synchronization", "Spatial-level Alignment"]
+        },
+        {
+          "name": "Grounding",
+          "items": ["Pixel Grounding", "Temporal Grounding"]
+        },
+        {
+          "name": "Analysis",
+          "items": ["Event Recognition", "Source Separation", "Action Recognition"]
+        },
+        {
+          "name": "Scene Understanding",
+          "items": ["Geometric Estimation", "Acoustic Field Estimation"]
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "name": "Reasoning",
+      "question": "What does the evidence imply?",
+      "summary": "Integrate multimodal evidence to derive relations, explanations, predictions, plans, and physically grounded conclusions.",
+      "accent": "green",
+      "groups": [
+        {
+          "name": "Specialized-Model Reasoning",
+          "items": ["Cross-Modal Event Reasoning", "Situated Spatial Reasoning", "Physical-Causal Reasoning"]
+        },
+        {
+          "name": "Foundation-Model Reasoning",
+          "items": ["Native Omnimodal Reasoning", "Multi-Step Reasoning", "Long-Context Reasoning"]
+        },
+        {
+          "name": "Agentic Reasoning",
+          "items": ["Tool-Augmented Reasoning", "Memory-Augmented Reasoning", "Multi-Agent Collaboration"]
+        }
+      ]
+    },
+    {
+      "id": "interaction",
+      "name": "Interaction",
+      "question": "How do I act and adapt?",
+      "summary": "Translate perception and reasoning into actions, sensing strategies, and communicative responses inside a closed physical loop.",
+      "accent": "gold",
+      "groups": [
+        {
+          "name": "Mobility Interaction",
+          "items": ["Navigation", "Active Exploration", "Autonomous Driving"]
+        },
+        {
+          "name": "Manipulative Interaction",
+          "items": ["Contact-Rich Manipulation", "Audio-Visual Skill Execution"]
+        },
+        {
+          "name": "Communicative Interaction",
+          "items": ["Situated Dialogue", "Human-Robot Collaboration"]
+        },
+        {
+          "name": "Generalist Policies",
+          "items": ["Audio-Visual-Language Policies", "Cross-Task Policy Generalization"]
+        }
+      ]
+    }
+  ]
+}

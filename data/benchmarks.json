@@ -1,0 +1,130 @@
+{
+  "benchmarks": [
+    {
+      "name": "AudioSet",
+      "year": 2017,
+      "category": "Perception",
+      "scale": "2.08M clips; 527 classes",
+      "annotation": "Multi-label clip tags",
+      "task": "Event recognition",
+      "citationKey": "audioset_ICASSP2017"
+    },
+    {
+      "name": "MUSIC",
+      "year": 2018,
+      "category": "Perception",
+      "scale": "714 videos; 11 instruments",
+      "annotation": "Class labels and source tracks",
+      "task": "Source separation",
+      "citationKey": "soundofpixels_ECCV2018"
+    },
+    {
+      "name": "AVE",
+      "year": 2018,
+      "category": "Perception",
+      "scale": "4,143 videos; 28 classes",
+      "annotation": "Segment labels and boundaries",
+      "task": "Event localization",
+      "citationKey": "tian_AVE_ECCV2018"
+    },
+    {
+      "name": "VGGSound",
+      "year": 2020,
+      "category": "Perception",
+      "scale": "200K+ ten-second clips",
+      "annotation": "Clip labels",
+      "task": "Event recognition",
+      "citationKey": "vggsound_ICASSP2020"
+    },
+    {
+      "name": "LLP",
+      "year": 2020,
+      "category": "Perception",
+      "scale": "11,849 videos; 25 classes",
+      "annotation": "Video tags and temporal labels",
+      "task": "Audio-visual video parsing",
+      "citationKey": "avvp_ECCV2020"
+    },
+    {
+      "name": "EPIC-KITCHENS-100",
+      "year": 2020,
+      "category": "Perception",
+      "scale": "100 hours; approximately 90K actions",
+      "annotation": "Verb/noun labels and time spans",
+      "task": "Action recognition and anticipation",
+      "citationKey": "epickitchens100_IJCV2022"
+    },
+    {
+      "name": "VGG-SS",
+      "year": 2021,
+      "category": "Perception",
+      "scale": "5,158 clips; 220 classes",
+      "annotation": "Bounding boxes",
+      "task": "Sound-source localization",
+      "citationKey": "chen2021avd"
+    },
+    {
+      "name": "AVSBench",
+      "year": 2022,
+      "category": "Perception",
+      "scale": "5,356 videos; 12,972 frames",
+      "annotation": "Binary masks",
+      "task": "Audio-visual segmentation",
+      "citationKey": "zhou2022avs"
+    },
+    {
+      "name": "Pano-AVQA",
+      "year": 2021,
+      "category": "Reasoning",
+      "scale": "5.4K clips; 51.7K question-answer pairs",
+      "annotation": "Question-answer pairs and grounding boxes",
+      "task": "Spatial audio-visual question answering",
+      "citationKey": "yun2021panoavqa"
+    },
+    {
+      "name": "MUSIC-AVQA",
+      "year": 2022,
+      "category": "Reasoning",
+      "scale": "Approximately 9.3K videos; 45,867 question-answer pairs",
+      "annotation": "Question-answer pairs",
+      "task": "Spatio-temporal audio-visual question answering",
+      "citationKey": "li2022musicavqa"
+    },
+    {
+      "name": "PACS",
+      "year": 2022,
+      "category": "Reasoning",
+      "scale": "1,526 videos; 13,400 question-answer pairs",
+      "annotation": "Question-answer pairs and object choices",
+      "task": "Physical reasoning",
+      "citationKey": "yu2022pacs"
+    },
+    {
+      "name": "SoundSpaces",
+      "year": 2019,
+      "category": "Interaction",
+      "scale": "103 scenes; 17.6M room impulse responses",
+      "annotation": "Poses, geometry, and goals",
+      "task": "Audio-goal navigation",
+      "citationKey": "chen2020soundspaces"
+    },
+    {
+      "name": "RH20T",
+      "year": 2023,
+      "category": "Interaction",
+      "scale": "110K+ sequences; 147 tasks",
+      "annotation": "Trajectories and robot states",
+      "task": "Imitation learning",
+      "citationKey": "rh20t_ICRA2024"
+    },
+    {
+      "name": "ManiWAV",
+      "year": 2024,
+      "category": "Interaction",
+      "scale": "1,014 demonstrations; 4 tasks",
+      "annotation": "Audio-visual trajectories",
+      "task": "Audio-visual manipulation",
+      "citationKey": "maniwav_CORL2024"
+    }
+  ]
+}
