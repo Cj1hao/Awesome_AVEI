@@ -50,7 +50,7 @@
     "This survey establishes a unified taxonomy that characterizes how audio-visual capabilities evolve from sensory alignment and scene perception toward agent-centric reasoning and embodied interaction. We organize the landscape into three progressive capability dimensions—Perception, Reasoning, and Interaction—and consolidate the associated datasets, simulators, evaluation metrics, open challenges, and future directions for Audio-Visual Embodied AI."
   ],
   "links": {
-    "github": "https://github.com/Cj1hao/Awesome_AVEI",
+    "github": "https://github.com/Raiden-cn/Awesome_AVEI",
     "pdf": "assets/paper.pdf",
     "arxiv": "",
     "rednote": ""
