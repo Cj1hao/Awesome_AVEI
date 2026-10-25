@@ -1,9 +1,8 @@
 {
   "projectName": "AV-EAI Survey",
   "eyebrow": "Audio-Visual Embodied Artificial Intelligence",
-  "title": "Seeing, Hearing, and Acting",
-  "subtitle": "A Survey of Audio-Visual Collaboration for Embodied Intelligence",
-  "description": "A capability-oriented survey tracing how audio-visual intelligence evolves from perception to reasoning and closed-loop interaction.",
+  "title": "A Survey of Audio-Visual Collaboration for Embodied Intelligence",
+  "description": "A unified capability-oriented survey of how visual and auditory evidence supports embodied perception, reasoning, and interaction in a closed loop.",
   "authors": [
     {
       "name": "Zhonghong Ou",
@@ -46,8 +45,8 @@
     "Omni-modal"
   ],
   "abstract": [
-    "Audio-Visual Embodied Artificial Intelligence (AV-EAI) has emerged as an indispensable frontier driven by the recent convergence of World Models, Physical AI, and omni-modal foundation models, utilizing vision and audio as essential physical perception units to ground intelligent agents in the real world. While previous studies have explored isolated, task-specific audio-visual applications or general multimodal learning, the highly diverse audio-visual literature has not been systematically reviewed in a unified manner, leaving taxonomies and evaluation protocols fragmented.",
-    "This survey establishes a unified taxonomy that characterizes how audio-visual capabilities evolve from sensory alignment and scene perception toward agent-centric reasoning and embodied interaction. We organize the landscape into three progressive capability dimensions—Perception, Reasoning, and Interaction—and consolidate the associated datasets, simulators, evaluation metrics, open challenges, and future directions for Audio-Visual Embodied AI."
+    "Audio-visual embodied intelligence (AVEI) studies how complementary visual and auditory observations support agents' understanding and interaction with their environments. Vision captures appearance, geometry, and motion, while sound provides cues about off-screen events, physical interactions, and spoken intent. This survey organizes the field through a unified Perception–Reasoning–Interaction taxonomy based on principal outputs and functional roles. Perception covers cross-modal consistency, grounding, analysis, and scene understanding; Reasoning examines specialized models, foundation models, and agentic systems; Interaction encompasses mobility, manipulation, communication, and generalist policies.",
+    "Rather than assuming a strict progression between these capabilities, we examine their functional connections within a closed loop: perception supplies evidence, reasoning guides decisions, and interaction produces feedback for subsequent understanding. We synthesize methodological developments, consolidate datasets, simulators, and benchmarks, and identify shared challenges in evidence grounding, streaming fusion, memory, acoustic transfer, and closed-loop evaluation. Throughout, we emphasize when auditory information changes an agent's decisions and whether those changes improve embodied performance."
   ],
   "links": {
     "github": "https://github.com/Raiden-cn/Awesome_AVEI",
@@ -61,6 +60,6 @@
   "support": "Supported by the National Key Research and Development Program of China under Grant 2024YFC3308500.",
   "citation": {
     "status": "Provisional citation",
-    "bibtex": "@misc{ou2026seeing,\n  title={Seeing, Hearing, and Acting: A Survey of Audio-Visual Collaboration for Embodied Intelligence},\n  author={Ou, Zhonghong and Zhu, Yifan and Hui, Pan},\n  year={2026}\n}"
+    "bibtex": "@misc{ou2026survey,\n  title={A Survey of Audio-Visual Collaboration for Embodied Intelligence},\n  author={Ou, Zhonghong and Zhu, Yifan and Hui, Pan},\n  year={2026}\n}"
   }
 }

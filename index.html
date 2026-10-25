@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Seeing, Hearing, and Acting — a survey of audio-visual collaboration for embodied intelligence."
+      content="A unified survey of how visual and auditory evidence supports embodied perception, reasoning, and interaction in a closed loop."
     />
     <meta name="theme-color" content="#f3f6f7" />
-    <title>Seeing, Hearing, and Acting · AV-EAI Survey</title>
+    <title>A Survey of Audio-Visual Collaboration for Embodied Intelligence · AV-EAI Survey</title>
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -52,10 +52,7 @@
         <div class="hero-stage page-shell">
           <div class="hero-copy reveal">
             <p class="eyebrow" id="siteEyebrow">Audio-Visual Embodied Artificial Intelligence</p>
-            <h1>
-              <span class="hero-title-lead" id="siteTitle">Seeing, Hearing, and Acting:</span>
-              <span class="hero-title-continuation" id="siteSubtitle">A Survey of Audio-Visual Collaboration for Embodied Intelligence</span>
-            </h1>
+            <h1 id="siteTitle">A Survey of Audio-Visual Collaboration for Embodied Intelligence</h1>
             <p class="hero-deck" id="siteDescription">
               A capability-oriented map from multisensory evidence to embodied action.
             </p>
@@ -87,11 +84,11 @@
           <button
             class="image-button"
             type="button"
-            data-lightbox="assets/figures/teaser.png"
+            data-lightbox="assets/figures/teaser.png?v=20261025"
             data-caption="The Perception–Reasoning–Interaction loop illustrated through an autonomous-driving scenario."
           >
             <img
-              src="assets/figures/teaser.png"
+              src="assets/figures/teaser.png?v=20261025"
               alt="An autonomous-driving example showing perception, reasoning, and interaction as a closed audio-visual loop"
             />
             <span>Expand figure</span>
@@ -142,51 +139,85 @@
               <button
                 class="image-button"
                 type="button"
-                data-lightbox="assets/figures/data-representation.png"
+                data-lightbox="assets/figures/overview.png?v=20261025"
+                data-caption="Audio-visual evidence supports perception, reasoning, and interaction in a feedback loop shaped by the agent's actions."
+              >
+                <img
+                  src="assets/figures/overview.png?v=20261025"
+                  alt="Overview of an embodied agent using vision and audio to perceive, reason, act, and gather new observations"
+                  loading="lazy"
+                />
+                <span>Inspect system loop</span>
+              </button>
+              <figcaption><span>SYSTEM VIEW</span><strong>Audio-visual embodied intelligence</strong></figcaption>
+            </figure>
+
+            <figure class="figure-card figure-card-wide reveal">
+              <button
+                class="image-button"
+                type="button"
+                data-lightbox="assets/figures/data-representation.png?v=20261025"
                 data-caption="Visual and audio data representations with representative front-end encoders."
               >
                 <img
-                  src="assets/figures/data-representation.png"
+                  src="assets/figures/data-representation.png?v=20261025"
                   alt="Overview of visual and audio representations and front-end encoder architectures"
                   loading="lazy"
                 />
                 <span>Inspect architecture</span>
               </button>
-              <figcaption><span>FIG. 03</span><strong>Data representations & front-end encoders</strong></figcaption>
+              <figcaption><span>REPRESENTATIONS</span><strong>Data representations & front-end encoders</strong></figcaption>
             </figure>
 
             <figure class="figure-card reveal">
               <button
                 class="image-button"
                 type="button"
-                data-lightbox="assets/figures/perception.png"
+                data-lightbox="assets/figures/perception.png?v=20261025"
                 data-caption="Consistency, grounding, analysis, and scene understanding in audio-visual perception."
               >
                 <img
-                  src="assets/figures/perception.png"
+                  src="assets/figures/perception.png?v=20261025"
                   alt="Four families of audio-visual perception methods"
                   loading="lazy"
                 />
                 <span>Inspect perception</span>
               </button>
-              <figcaption><span>FIG. 04</span><strong>Perception overview</strong></figcaption>
+              <figcaption><span>PERCEPTION</span><strong>Consistency, grounding, analysis & scene understanding</strong></figcaption>
             </figure>
 
-            <figure class="figure-card figure-card-tall reveal">
+            <figure class="figure-card reveal">
               <button
                 class="image-button"
                 type="button"
-                data-lightbox="assets/figures/interaction.png"
+                data-lightbox="assets/figures/reasoning.png?v=20261025"
+                data-caption="Representative advances from specialized audio-visual reasoning to foundation-model and agentic systems."
+              >
+                <img
+                  src="assets/figures/reasoning.png?v=20261025"
+                  alt="Timeline of specialized-model, foundation-model, and agentic audio-visual reasoning systems"
+                  loading="lazy"
+                />
+                <span>Inspect reasoning timeline</span>
+              </button>
+              <figcaption><span>REASONING</span><strong>From task-specific inference to agentic systems</strong></figcaption>
+            </figure>
+
+            <figure class="figure-card reveal">
+              <button
+                class="image-button"
+                type="button"
+                data-lightbox="assets/figures/interaction.png?v=20261025"
                 data-caption="Mobility, manipulation, communication, and generalist audio-visual policies."
               >
                 <img
-                  src="assets/figures/interaction.png"
+                  src="assets/figures/interaction.png?v=20261025"
                   alt="Four families of audio-visual embodied interaction"
                   loading="lazy"
                 />
                 <span>Inspect interaction</span>
               </button>
-              <figcaption><span>FIG. 05</span><strong>Interaction overview</strong></figcaption>
+              <figcaption><span>INTERACTION</span><strong>Mobility, manipulation, communication & generalist policies</strong></figcaption>
             </figure>
           </div>
         </div>
@@ -283,33 +314,25 @@
         <div class="page-shell">
           <header class="section-heading reveal">
             <p class="eyebrow">Open research signals</p>
-            <h2>Six directions for reliable embodied audio-visual intelligence.</h2>
+            <h2>Four directions for reliable embodied audio-visual intelligence.</h2>
           </header>
 
           <ol class="direction-list reveal">
             <li>
               <span>01</span>
-              <div><strong>Evidence-grounded decisions</strong><p>Preserve provenance and uncertainty from observation through action.</p></div>
+              <div><strong>Hallucination and evidence-grounded decisions</strong><p>Link consequential conclusions to sensory intervals, entities, timestamps, and coordinate frames, with uncertainty governing further observation or clarification.</p></div>
             </li>
             <li>
               <span>02</span>
-              <div><strong>Action-conditioned world models</strong><p>Predict how interventions alter both the world and its multisensory evidence.</p></div>
+              <div><strong>Action-conditioned world models and active sensing</strong><p>Predict how interventions alter environmental states and sensory evidence, then select observations by decision benefit relative to time, energy, and interaction cost.</p></div>
             </li>
             <li>
               <span>03</span>
-              <div><strong>Streaming fusion and memory</strong><p>Maintain asynchronous audio-visual context under real-time control budgets.</p></div>
+              <div><strong>Streaming fusion, memory, and real-time control</strong><p>Retain transient events, revise ongoing actions, and measure latency, recovery, and memory cost under strictly causal access.</p></div>
             </li>
             <li>
               <span>04</span>
-              <div><strong>Physically consistent sim-to-real</strong><p>Model geometry, materials, reverberation, and device variation together.</p></div>
-            </li>
-            <li>
-              <span>05</span>
-              <div><strong>Generalist AV-language-action policies</strong><p>Use sound as actionable evidence rather than an auxiliary feature.</p></div>
-            </li>
-            <li>
-              <span>06</span>
-              <div><strong>Closed-loop evaluation</strong><p>Connect localization and reasoning gains to action, recovery, and latency.</p></div>
+              <div><strong>Scalable data and sim-to-real transfer</strong><p>Vary objects, rooms, sensors, and embodiments while preserving action-relevant physics and reporting calibration, failures, and corrective behavior.</p></div>
             </li>
           </ol>
         </div>
@@ -337,7 +360,7 @@
             <span class="wordmark-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
             <span>AV·EAI</span>
           </a>
-          <p>Seeing, Hearing, and Acting.</p>
+          <p>Audio-Visual Embodied Intelligence.</p>
         </div>
         <div>
           <span class="footer-label">Contact</span>
@@ -379,6 +402,6 @@
       <div class="paper-dialog-actions" id="paperDialogActions"></div>
     </dialog>
 
-    <script type="module" src="app.js?v=20261019-1"></script>
+    <script type="module" src="app.js?v=20261025-1"></script>
   </body>
 </html>

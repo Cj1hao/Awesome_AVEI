@@ -1,6 +1,6 @@
 # AV-EAI Survey Website
 
-Companion website for **Seeing, Hearing, and Acting: A Survey of Audio-Visual Collaboration for Embodied Intelligence**.
+Companion website for **A Survey of Audio-Visual Collaboration for Embodied Intelligence**.
 
 The site is deliberately buildless: GitHub Pages can serve the repository root directly, and the literature explorer is generated from the manuscript source rather than maintained by hand.
 
@@ -47,6 +47,6 @@ Empty `arxiv` and `rednote` values in `data/site.json` are hidden automatically.
 
 The site is published from the `Cj1hao/Awesome_AVEI` repository using GitHub Pages from the repository root on the default branch. No framework build or deployment action is required.
 
-## Known source gaps
+## Release placeholders
 
-The generated report currently records six unresolved citation placeholders in the manuscript. The provisional citation, public arXiv link, and Rednote link should be updated after release.
+The generated literature report currently resolves every citation used in the manuscript. The provisional citation, current PDF, public arXiv link, and Rednote link should be updated after release.

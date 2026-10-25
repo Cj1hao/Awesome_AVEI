@@ -78,10 +78,9 @@ function formatAuthors(authors) {
 }
 
 function renderSite(site) {
-  document.title = `${site.title}: ${site.subtitle} · ${site.projectName}`;
+  document.title = `${site.title} · ${site.projectName}`;
   setText("siteEyebrow", site.eyebrow);
-  setText("siteTitle", `${site.title}:`);
-  setText("siteSubtitle", site.subtitle);
+  setText("siteTitle", site.title);
   setText("siteDescription", site.description);
   setText("supportText", site.support);
   setText("citationStatus", `${site.citation.status}; update after public release.`);

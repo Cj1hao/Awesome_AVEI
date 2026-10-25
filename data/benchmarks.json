@@ -60,17 +60,35 @@
       "category": "Perception",
       "scale": "5,158 clips; 220 classes",
       "annotation": "Bounding boxes",
-      "task": "Sound-source localization",
+      "task": "Source localization",
       "citationKey": "chen2021avd"
     },
     {
-      "name": "AVSBench",
+      "name": "AVSBench (S4/MS3)",
       "year": 2022,
       "category": "Perception",
       "scale": "5,356 videos; 12,972 frames",
       "annotation": "Binary masks",
       "task": "Audio-visual segmentation",
       "citationKey": "zhou2022avs"
+    },
+    {
+      "name": "HD-EPIC",
+      "year": 2025,
+      "category": "Perception",
+      "scale": "41 hours; 59K actions; 51K events",
+      "annotation": "Action and sound labels with temporal spans",
+      "task": "Action and sound recognition",
+      "citationKey": "hdepic_CVPR2025"
+    },
+    {
+      "name": "MRSAudio",
+      "year": 2025,
+      "category": "Perception",
+      "scale": "484 hours; 4 subsets",
+      "annotation": "3D positions and event tags",
+      "task": "Spatial audio understanding",
+      "citationKey": "mrsaudio_NIPS2025"
     },
     {
       "name": "Pano-AVQA",
@@ -100,6 +118,24 @@
       "citationKey": "yu2022pacs"
     },
     {
+      "name": "WorldSense",
+      "year": 2025,
+      "category": "Reasoning",
+      "scale": "1,662 videos; 3,172 question-answer pairs",
+      "annotation": "Human-annotated question-answer pairs",
+      "task": "General audio-visual reasoning",
+      "citationKey": "hong2025worldsense"
+    },
+    {
+      "name": "EgoLife",
+      "year": 2025,
+      "category": "Reasoning",
+      "scale": "300 hours; 3K question-answer pairs",
+      "annotation": "Question-answer pairs, captions, and timestamps",
+      "task": "Long-term egocentric reasoning",
+      "citationKey": "yang2025egolife"
+    },
+    {
       "name": "SoundSpaces",
       "year": 2019,
       "category": "Interaction",
@@ -125,6 +161,24 @@
       "annotation": "Audio-visual trajectories",
       "task": "Audio-visual manipulation",
       "citationKey": "maniwav_CORL2024"
+    },
+    {
+      "name": "OmniAction",
+      "year": 2025,
+      "category": "Interaction",
+      "scale": "141K episodes; 112 skills",
+      "annotation": "Dialogue and action trajectories",
+      "task": "Contextual audio-visual manipulation",
+      "citationKey": "wang2025roboomni"
+    },
+    {
+      "name": "SAVN-CE",
+      "year": 2026,
+      "category": "Interaction",
+      "scale": "500K training; 1K test episodes",
+      "annotation": "Poses, goals, and sound timing",
+      "task": "Continuous audio-visual navigation",
+      "citationKey": "savnce_CVPR2026"
     }
   ]
 }
