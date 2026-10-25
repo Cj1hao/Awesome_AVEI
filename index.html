@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Manrope:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles-v2.css" />
+    <link rel="stylesheet" href="styles-v2.css?v=20261025-2" />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -94,7 +94,7 @@
             <span>Expand figure</span>
           </button>
           <figcaption>
-            <span>FIGURE 01 · THE CLOSED LOOP</span>
+            <span>FIGURE 02 · THE CLOSED LOOP</span>
             <p>
               Visual and auditory cues become a fused observation; reasoning infers hidden risk; action changes the scene and produces the next observation.
             </p>
@@ -126,99 +126,218 @@
         <div class="page-shell">
           <header class="section-heading split-heading reveal">
             <div>
-              <p class="eyebrow">Visual atlas</p>
-              <h2>From representation to action.</h2>
+              <p class="eyebrow">Complete visual atlas</p>
+              <h2>The full argument, in ten figures.</h2>
             </div>
             <p>
-              The survey connects sensor representations, perceptual operators, and embodied policies instead of treating them as isolated task families.
+              The opening closed-loop example is followed here by every remaining figure in the survey, ordered by the paper's progression from foundations to embodied interaction.
             </p>
           </header>
 
+          <nav class="atlas-index reveal" aria-label="Visual atlas chapters">
+            <a href="#atlas-foundations"><i></i><span>Foundations</span><small>Figures 01, 03–04</small></a>
+            <a href="#atlas-perception"><i></i><span>Perception</span><small>Figures 05–06</small></a>
+            <a href="#atlas-reasoning"><i></i><span>Reasoning</span><small>Figures 07–08</small></a>
+            <a href="#atlas-interaction"><i></i><span>Interaction</span><small>Figures 09–10</small></a>
+          </nav>
+
           <div class="figure-grid">
-            <figure class="figure-card figure-card-wide reveal">
-              <button
-                class="image-button"
-                type="button"
-                data-lightbox="assets/figures/overview.png?v=20261025"
-                data-caption="Audio-visual evidence supports perception, reasoning, and interaction in a feedback loop shaped by the agent's actions."
-              >
-                <img
-                  src="assets/figures/overview.png?v=20261025"
-                  alt="Overview of an embodied agent using vision and audio to perceive, reason, act, and gather new observations"
-                  loading="lazy"
-                />
-                <span>Inspect system loop</span>
-              </button>
-              <figcaption><span>SYSTEM VIEW</span><strong>Audio-visual embodied intelligence</strong></figcaption>
-            </figure>
+            <section class="atlas-group atlas-foundations" id="atlas-foundations">
+              <header class="atlas-group-heading reveal">
+                <span>FOUNDATIONS</span>
+                <div>
+                  <h3>A common language for the field.</h3>
+                  <p>The system loop, complete taxonomy, and sensory representations establish the conceptual and technical foundation of the survey.</p>
+                </div>
+              </header>
+              <div class="atlas-group-body">
+                <figure class="figure-card reveal">
+                  <button
+                    class="image-button"
+                    type="button"
+                    data-lightbox="assets/figures/overview.png?v=20261025-2"
+                    data-caption="Audio-visual evidence supports perception, reasoning, and interaction in a feedback loop shaped by the agent's actions."
+                  >
+                    <img
+                      src="assets/figures/overview.png?v=20261025-2"
+                      alt="Overview of an embodied agent using vision and audio to perceive, reason, act, and gather new observations"
+                      loading="lazy"
+                    />
+                    <span>Inspect system loop</span>
+                  </button>
+                  <figcaption><span>FIGURE 01 · SYSTEM VIEW</span><strong>Audio-visual embodied intelligence</strong></figcaption>
+                </figure>
 
-            <figure class="figure-card figure-card-wide reveal">
-              <button
-                class="image-button"
-                type="button"
-                data-lightbox="assets/figures/data-representation.png?v=20261025"
-                data-caption="Visual and audio data representations with representative front-end encoders."
-              >
-                <img
-                  src="assets/figures/data-representation.png?v=20261025"
-                  alt="Overview of visual and audio representations and front-end encoder architectures"
-                  loading="lazy"
-                />
-                <span>Inspect architecture</span>
-              </button>
-              <figcaption><span>REPRESENTATIONS</span><strong>Data representations & front-end encoders</strong></figcaption>
-            </figure>
+                <figure class="figure-card figure-card-tall figure-card-dense reveal">
+                  <button
+                    class="image-button"
+                    type="button"
+                    data-lightbox="assets/figures/taxonomy.png?v=20261025-2"
+                    data-caption="The complete taxonomy of audio-visual embodied intelligence across perception, reasoning, and interaction."
+                  >
+                    <img
+                      src="assets/figures/taxonomy.png?v=20261025-2"
+                      alt="Complete taxonomy of audio-visual embodied intelligence methods and representative work"
+                      loading="lazy"
+                    />
+                    <span>Inspect full taxonomy</span>
+                  </button>
+                  <figcaption><span>FIGURE 03 · TAXONOMY</span><strong>Perception, reasoning & interaction</strong></figcaption>
+                </figure>
 
-            <figure class="figure-card reveal">
-              <button
-                class="image-button"
-                type="button"
-                data-lightbox="assets/figures/perception.png?v=20261025"
-                data-caption="Consistency, grounding, analysis, and scene understanding in audio-visual perception."
-              >
-                <img
-                  src="assets/figures/perception.png?v=20261025"
-                  alt="Four families of audio-visual perception methods"
-                  loading="lazy"
-                />
-                <span>Inspect perception</span>
-              </button>
-              <figcaption><span>PERCEPTION</span><strong>Consistency, grounding, analysis & scene understanding</strong></figcaption>
-            </figure>
+                <figure class="figure-card reveal">
+                  <button
+                    class="image-button"
+                    type="button"
+                    data-lightbox="assets/figures/data-representation.png?v=20261025-2"
+                    data-caption="Visual and audio data representations with representative front-end encoders."
+                  >
+                    <img
+                      src="assets/figures/data-representation.png?v=20261025-2"
+                      alt="Overview of visual and audio representations and front-end encoder architectures"
+                      loading="lazy"
+                    />
+                    <span>Inspect architecture</span>
+                  </button>
+                  <figcaption><span>FIGURE 04 · REPRESENTATIONS</span><strong>Data representations & front-end encoders</strong></figcaption>
+                </figure>
+              </div>
+            </section>
 
-            <figure class="figure-card reveal">
-              <button
-                class="image-button"
-                type="button"
-                data-lightbox="assets/figures/reasoning.png?v=20261025"
-                data-caption="Representative advances from specialized audio-visual reasoning to foundation-model and agentic systems."
-              >
-                <img
-                  src="assets/figures/reasoning.png?v=20261025"
-                  alt="Timeline of specialized-model, foundation-model, and agentic audio-visual reasoning systems"
-                  loading="lazy"
-                />
-                <span>Inspect reasoning timeline</span>
-              </button>
-              <figcaption><span>REASONING</span><strong>From task-specific inference to agentic systems</strong></figcaption>
-            </figure>
+            <section class="atlas-group atlas-perception" id="atlas-perception">
+              <header class="atlas-group-heading reveal">
+                <span>PERCEPTION</span>
+                <div>
+                  <h3>From correspondence to scene understanding.</h3>
+                  <p>The capability map is paired with its research timeline, connecting task families to the sequence of representative advances.</p>
+                </div>
+              </header>
+              <div class="atlas-group-body">
+                <figure class="figure-card reveal">
+                  <button
+                    class="image-button"
+                    type="button"
+                    data-lightbox="assets/figures/perception.png?v=20261025-2"
+                    data-caption="Consistency, grounding, analysis, and scene understanding in audio-visual perception."
+                  >
+                    <img
+                      src="assets/figures/perception.png?v=20261025-2"
+                      alt="Four families of audio-visual perception methods"
+                      loading="lazy"
+                    />
+                    <span>Inspect perception</span>
+                  </button>
+                  <figcaption><span>FIGURE 05 · CAPABILITY MAP</span><strong>Consistency, grounding, analysis & scene understanding</strong></figcaption>
+                </figure>
 
-            <figure class="figure-card reveal">
-              <button
-                class="image-button"
-                type="button"
-                data-lightbox="assets/figures/interaction.png?v=20261025"
-                data-caption="Mobility, manipulation, communication, and generalist audio-visual policies."
-              >
-                <img
-                  src="assets/figures/interaction.png?v=20261025"
-                  alt="Four families of audio-visual embodied interaction"
-                  loading="lazy"
-                />
-                <span>Inspect interaction</span>
-              </button>
-              <figcaption><span>INTERACTION</span><strong>Mobility, manipulation, communication & generalist policies</strong></figcaption>
-            </figure>
+                <figure class="figure-card figure-card-dense reveal">
+                  <button
+                    class="image-button"
+                    type="button"
+                    data-lightbox="assets/figures/perception-timeline.png?v=20261025-2"
+                    data-caption="Timeline of representative advances in audio-visual perception."
+                  >
+                    <img
+                      src="assets/figures/perception-timeline.png?v=20261025-2"
+                      alt="Timeline of representative audio-visual perception research"
+                      loading="lazy"
+                    />
+                    <span>Inspect perception timeline</span>
+                  </button>
+                  <figcaption><span>FIGURE 06 · TIMELINE</span><strong>Representative advances in audio-visual perception</strong></figcaption>
+                </figure>
+              </div>
+            </section>
+
+            <section class="atlas-group atlas-reasoning" id="atlas-reasoning">
+              <header class="atlas-group-heading reveal">
+                <span>REASONING</span>
+                <div>
+                  <h3>Evidence becomes inference and plans.</h3>
+                  <p>Specialized models, foundation models, and agentic systems are shown first as a reasoning architecture and then as a chronological research landscape.</p>
+                </div>
+              </header>
+              <div class="atlas-group-body">
+                <figure class="figure-card reveal">
+                  <button
+                    class="image-button"
+                    type="button"
+                    data-lightbox="assets/figures/reasoning-overview.png?v=20261025-2"
+                    data-caption="Specialized-model, foundation-model, and agentic approaches to grounded audio-visual reasoning."
+                  >
+                    <img
+                      src="assets/figures/reasoning-overview.png?v=20261025-2"
+                      alt="Overview of specialized, foundation-model, and agentic audio-visual reasoning"
+                      loading="lazy"
+                    />
+                    <span>Inspect reasoning overview</span>
+                  </button>
+                  <figcaption><span>FIGURE 07 · REASONING MAP</span><strong>Specialized, foundation & agentic systems</strong></figcaption>
+                </figure>
+
+                <figure class="figure-card figure-card-dense reveal">
+                  <button
+                    class="image-button"
+                    type="button"
+                    data-lightbox="assets/figures/reasoning.png?v=20261025-2"
+                    data-caption="Representative advances from specialized audio-visual reasoning to foundation-model and agentic systems."
+                  >
+                    <img
+                      src="assets/figures/reasoning.png?v=20261025-2"
+                      alt="Timeline of specialized-model, foundation-model, and agentic audio-visual reasoning systems"
+                      loading="lazy"
+                    />
+                    <span>Inspect reasoning timeline</span>
+                  </button>
+                  <figcaption><span>FIGURE 08 · TIMELINE</span><strong>Representative advances in audio-visual reasoning</strong></figcaption>
+                </figure>
+              </div>
+            </section>
+
+            <section class="atlas-group atlas-interaction" id="atlas-interaction">
+              <header class="atlas-group-heading reveal">
+                <span>INTERACTION</span>
+                <div>
+                  <h3>Decisions return to the physical world.</h3>
+                  <p>Mobility, manipulation, communication, and generalist policies complete the loop between multimodal evidence and executable behavior.</p>
+                </div>
+              </header>
+              <div class="atlas-group-body">
+                <figure class="figure-card reveal">
+                  <button
+                    class="image-button"
+                    type="button"
+                    data-lightbox="assets/figures/interaction.png?v=20261025-2"
+                    data-caption="Mobility, manipulation, communication, and generalist audio-visual policies."
+                  >
+                    <img
+                      src="assets/figures/interaction.png?v=20261025-2"
+                      alt="Four families of audio-visual embodied interaction"
+                      loading="lazy"
+                    />
+                    <span>Inspect interaction</span>
+                  </button>
+                  <figcaption><span>FIGURE 09 · CAPABILITY MAP</span><strong>Mobility, manipulation, communication & generalist policies</strong></figcaption>
+                </figure>
+
+                <figure class="figure-card figure-card-dense reveal">
+                  <button
+                    class="image-button"
+                    type="button"
+                    data-lightbox="assets/figures/interaction-timeline.png?v=20261025-2"
+                    data-caption="Timeline of representative advances in audio-visual embodied interaction."
+                  >
+                    <img
+                      src="assets/figures/interaction-timeline.png?v=20261025-2"
+                      alt="Timeline of representative audio-visual embodied interaction research"
+                      loading="lazy"
+                    />
+                    <span>Inspect interaction timeline</span>
+                  </button>
+                  <figcaption><span>FIGURE 10 · TIMELINE</span><strong>Representative advances in audio-visual interaction</strong></figcaption>
+                </figure>
+              </div>
+            </section>
           </div>
         </div>
       </section>
